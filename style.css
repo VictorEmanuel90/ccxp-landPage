@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: #FFD900;
+
+}
+nav img{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+
+#reviva{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #514988;
+    text-align: center;
+    width: 550px;
+    padding: 40px;
+}
+
+#reviva h1{
+    margin-top: -15px;
+    width: 100%;
+    font-size: 50px;
+    color: #F3C61F;
+   
+    
+}
+
+#reviva h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #ffff;
+    
+}
+#reviva p{
+    margin-top: 60px;
+    color: #ffff;
+    font-size: 18px;
+}
+
+#video{
+    
+   
+    display: grid;
+    width: 100px;
+    margin-left: 193px;
+    
+}
+
+#video h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #E33881;
+    font-size: 20px;
+    
+}
+
+section div video{
+    align-items: center;
+    width: 700px;
+    
+    
+    
+}
+
+#countdown{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 11vw;
+    font-size: 30px;
+    margin: 20px 20px 0px 10px;
+}
+
+footer h2{
+    color: #F3C61F;
+    font-size: 20px;
+    margin: 15px 0px 15px 100px;
+}
+
+.footerImg {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 15vw;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+footer button{
+    width: 450px;
+    height: 90px;
+   margin-left: 100px;
+   margin-top: 45px;
+   background-color: #514988;
+   color: #ffff;
+   font-size: 25px;
+   border: 0px;
+   border-radius: 15px;
+   cursor: pointer;   
+    
+}
+
+footer button:hover{
+    color: #F3C61F;
+}
+
+#form{
+    background-color: #F3C61F;
+}
+
+input {
+    background: #514988;
+    border-radius: 10px;
+    color: #ffff;
+    border: 0px;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.boxshadow{
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+.cards-selected{
+    border: 5px solid green;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CCXP22 - landPage</title>
+</head>
+
+<body>
+    <nav>
+        <img src="img/logo.svg" alt="">
+    </nav>
+    <section>
+        <div id="reviva">
+            <h1>REVIVA O ÉPICO</h1>
+            <h2>DE 01 A 04 DE DEZEMBRO</h2>
+            <p>
+                Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                em casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley,<br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos <br>
+                corredores.
+            </p>
+        </div>
+        <div id="video">
+            <div id="countdown">
+                <h1 id="dia">00</h1>
+                <h1 id="hora">00</h1>
+                <h1 id="min">00</h1>
+                <h1 id="seg">00</h1>
+            </div>
+
+            <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+            <video controls loop>
+                <source src="video/Arlequina.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
+        </div>
+
+        <div class="footerImg">
+            <img class="cards-ingressos" onclick="cardSelected('#quinta')" src="img/ingressoquinta.svg" onmouseover="boxShadow('#quinta')" onmouseout="boxShadow('#quinta')" id="quinta" srcset="">
+            <img class="cards-ingressos" onclick="cardSelected('#sexta')" onmouseover="boxShadow('#sexta')" onmouseout="boxShadow('#sexta')" src="img/ingressosexta.svg"  id="sexta"alt="" srcset="">
+            <img class="cards-ingressos" onclick="cardSelected('#sabado')" onmouseover="boxShadow('#sabado')" onmouseout="boxShadow('#sabado')" src="img/ingressoSabado.svg" id="sabado" alt="" srcset="">
+            <img class="cards-ingressos" onclick="cardSelected('#domingo')" onmouseover="boxShadow('#domingo')" onmouseout="boxShadow('#domingo')" src="img/ingressoDomingo.svg" id="domingo" alt="" srcset="">
+
+            <button onclick="showSelectedCards()"><strong>GARANTA O SEU!</strong></button>
+        </div>   
+    </footer>
+    <div id="form">
+        <form action="www.google.com" method="post">
+            <input type="email" placeholder="Digite seu email..." required name="email" id="email">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
